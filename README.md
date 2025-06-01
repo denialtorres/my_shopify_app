@@ -1,24 +1,18 @@
-# README
+# Shopify App Development Guide
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This guide will help you set up and run your Shopify app development environment.
 
-Things you may want to cover:
+## Setup Instructions
 
-* Ruby version
+### Local Development Server
+1. Start your Rails server:
+```bash
+rails server
+```
+This will run your application on `http://localhost:3000`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Ngrok Setup
+2. In a new terminal window, run:
+```bash
+ngrok http http://localhost:3000
+```
