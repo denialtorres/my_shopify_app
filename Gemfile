@@ -66,3 +66,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "shopify_app", "~> 22.5"
+
+gem 'dotenv', groups: [:development, :test]
